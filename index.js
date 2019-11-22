@@ -6,7 +6,7 @@ function watchForm() {
     event.preventDefault();
     let dogNumber = document.getElementById('randomNumber').value;
     console.log(`Number of images: ${dogNumber}`);
-    getDogImages();
+    getDogImages(dogNumber);
   });   
 }
 
